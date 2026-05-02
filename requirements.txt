@@ -1,23 +1,15 @@
-# Core framework
 Flask==3.1.0
 gunicorn==23.0.0
 
-# Database ORM
 Flask-SQLAlchemy==3.1.1
 SQLAlchemy==2.0.36
 
-# PostgreSQL adapter (optional — only needed in production)
-# Uncomment when deploying to a PostgreSQL-backed environment:
-# psycopg2-binary==2.9.10
+psycopg2-binary==2.9.10
 
-# Background job scheduler
 APScheduler==3.10.4
 
-# HTTP client (Gemini + Telegram API calls)
 requests==2.32.3
 
-# Environment variable loading
 python-dotenv==1.0.1
 
-# Timezone support (bonus feature)
 pytz==2024.2
