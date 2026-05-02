@@ -36,7 +36,7 @@ def init_scheduler(app) -> None:
         return
 
     # Import here to avoid circular imports at module load time
-    from tasks.daily_sender import send_due_messages
+    from daily_sender import send_due_messages
 
     scheduler.add_job(
         func=send_due_messages,
